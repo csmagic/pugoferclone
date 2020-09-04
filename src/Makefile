@@ -67,10 +67,6 @@ install		:
 		  strip $*
 
 storage.h	: pug.h
-parser.c	: parser.y input.h
-		  yacc -d parser.y
-		  mv y.tab.c parser.c
-		  mv y.tab.h parser.h
 
 gofer.o		: prelude.h storage.h connect.h errors.h \
 		  command.h machdep.c commonui.c
