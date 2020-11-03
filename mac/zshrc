@@ -1,0 +1,2 @@
+export PATH=$PATH:~/Desktop/pugofer
+export PUGOFER=~/Desktop/pugofer/pusimple.pre
